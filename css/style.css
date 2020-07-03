@@ -17,12 +17,32 @@ body {
   width: 70%;
   margin: auto;
 }
+.button-orange {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FE775A;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-white {
+  color: #FE775A;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #FE775A;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
 /* /Regole generali */
 /* Regole login-section */
 .login-section {
   height: 80px;
   background-color: #F5F8FA;
   line-height: 80px;
+  border-bottom: 1px solid #384F60;
 }
 .login-section nav {
   float:left;
@@ -39,5 +59,11 @@ body {
 }
 .fa-search {
   color: #39B7CB;
+}
+#english {
+  border-right: 1px solid #384F60;
+  padding-right: 20px;
+  margin-right: 20px;
+  display: inline;
 }
 /* /Regole login-section */
