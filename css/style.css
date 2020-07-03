@@ -60,10 +60,52 @@ body {
 .fa-search {
   color: #39B7CB;
 }
-#english {
+#english a {
   border-right: 1px solid #384F60;
   padding-right: 20px;
   margin-right: 20px;
   display: inline;
+  text-decoration: none;
+  color: #384F60;
+}
+#contact-us a {
+  text-decoration: none;
+  color: #384F60;
 }
 /* /Regole login-section */
+/* Regole navigation-section */
+.navigation-section {
+  height: 80px;
+  line-height: 80px;
+}
+.logo {
+  float: left;
+  width: 50%;
+}
+.logo img {
+  vertical-align: middle;
+}
+.navigation-section nav {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.navigation-section ul {
+  list-style: none;
+}
+.navigation-section li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.navigation-section a {
+  text-decoration: none;
+  color: #384F60;
+}
+
+.navigation-section .fa-angle-down {
+  margin-left: 10px;
+
+}
+/* /Regole navigation-section */
