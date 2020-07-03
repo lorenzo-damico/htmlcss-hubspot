@@ -109,3 +109,9 @@ body {
 
 }
 /* /Regole navigation-section */
+/* Regole title-section */
+.title-section {
+  height: 500px;
+  background-image: url(../img/jumbotron.png);
+}
+/* /Regole title-section */
