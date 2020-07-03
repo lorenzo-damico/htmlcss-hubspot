@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Regole generali */
+body {
+  color: #384F60;
+  font-family: 'Roboto', sans-serif;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+/* /Regole generali */
+/* Regole login-section */
+.login-section {
+  height: 80px;
+  background-color: #F5F8FA;
+  line-height: 80px;
+}
+.login-section nav {
+  float:left;
+  width: 50%;
+}
+.login-section ul {
+  list-style: none;
+}
+.login-section li {
+  display: inline-block;
+}
+.login-section nav:nth-child(2) {
+  text-align: right;
+}
+.fa-search {
+  color: #39B7CB;
+}
+/* /Regole login-section */
