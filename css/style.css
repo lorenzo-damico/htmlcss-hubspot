@@ -38,7 +38,7 @@ body {
 }
 .box-white {
   background-color: #FFFFFF;
-  box-shadow: 0 0 11px #eaf0f6;
+  box-shadow: 0 0 2px 2px #E8EDF3;
   border-radius: 5px;
 }
 .fa-check-circle {
@@ -264,6 +264,7 @@ body {
 .three-box hr {
   margin-top: 50px;
   margin-bottom: 30px;
+  border: 1px solid #AAB1B5;
 }
 .three-box h4 {
   text-transform: uppercase;
@@ -280,3 +281,4 @@ body {
   margin-top: 40px;
 }
 /* /Regole 3 box */
+Regole learn
