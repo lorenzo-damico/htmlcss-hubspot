@@ -425,16 +425,17 @@ margin-left: 15px;
   font-size: 13px;
   font-weight: 500;
   width: 88%;
-  margin-top: 20px;
+  margin-top: 25px;
   line-height: 23px;
 }
 .image-block-col-left button{
+  font-size: 12px;
   padding: 15px 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .image-block-col-left p:nth-child(4) {
   font-size: 11px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .image-block-col-right {
   float: left;
