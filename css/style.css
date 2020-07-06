@@ -339,3 +339,72 @@ body {
   border-right: 1px solid #fff;
 }
 /* /Regole learn-table-block */
+/* Regole logos-section */
+.logos-section  {
+ padding-top: 45px;
+}
+/* /Regole logos-section */
+/* Regole logos-block */
+.logos-block {
+  width: 60%;
+  margin: auto;
+}
+.customers-column {
+  float: left;
+  width: 20%
+}
+.customers-column h2 {
+  font-size: 38px;
+}
+.customers-column p {
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+.customers-column span {
+  font-weight: 700;
+}
+.logos-column {
+  width: 70%;
+  margin-left: 10%;
+  padding-top: 10px;
+  float: left;
+  text-align: right;
+}
+.logos-column ul {
+list-style: none;
+line-height: 50px;
+}
+.logos-column li {
+display: inline-block;
+margin-left: 15px;
+}
+.logos-column img {
+  vertical-align: middle;
+}
+#atlassian {
+  height: 13px;
+}
+#doordash {
+  height: 12px;
+}
+#crowd {
+  height: 30px;
+}
+#monkey {
+  height: 35px;
+}
+#subaru {
+  height: 35px;
+}
+#wistia {
+  height: 16px;
+}
+#classpass {
+  height: 30px;
+}
+#vmware {
+  height: 25px;
+  background-color:
+}
+/* /Regole logos-block */
