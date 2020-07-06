@@ -5,7 +5,7 @@
 }
 /* Regole generali */
 body {
-  color: #384F60;
+  color: #33475B;
   font-family: 'Roboto', sans-serif;
 }
 .clearfix::after {
@@ -42,7 +42,7 @@ body {
   height: 80px;
   background-color: #F5F8FA;
   line-height: 80px;
-  border-bottom: 1px solid #384F60;
+  border-bottom: 1px solid #33475B;
 }
 .login-section nav {
   float:left;
@@ -62,17 +62,17 @@ body {
 }
 #english {
   display: inline;
-  border-right: 1px solid #384F60;
+  border-right: 1px solid #33475B;
   padding-right: 20px;
   margin-right: 20px;
 }
 #english a {
   text-decoration: none;
-  color: #384F60;
+  color: #33475B;
 }
 #contact-us a {
   text-decoration: none;
-  color: #384F60;
+  color: #33475B;
 }
 /* /Regole login-section */
 /* Regole navigation-section */
@@ -103,7 +103,7 @@ body {
 
 .navigation-section a {
   text-decoration: none;
-  color: #384F60;
+  color: #33475B;
 }
 
 .navigation-section .fa-angle-down {
@@ -143,8 +143,34 @@ body {
 .separation-section {
   height: 80px;
   background-color: #AFEBE4;
-  border-top: 3px solid #384F60;
-  border-bottom: 3px solid #384F60;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
 
 }
 /* /Regole separation-section */
+/* Regole explain-section */
+.explain-section {
+  background-color: #F4F9FD;
+  height: 2000px;
+}
+/* /Regole explain-section */
+/* Regole intro-block */
+.intro-block {
+  text-align: center;
+  padding: 50px 0;
+  width: 55%;
+  margin: auto;
+}
+.intro-block img {
+  height: 160px;
+}
+.intro-block h2 {
+  font-size: 28px;
+}
+.intro-block p {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+/* /Regole intro-block */
