@@ -408,3 +408,40 @@ margin-left: 15px;
   background-color:
 }
 /* /Regole logos-block */
+/* Regole  image-block */
+.image-block {
+  padding: 40px 0;
+}
+.image-block-col-left {
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+}
+.image-block-col-left h2 {
+  font-size: 28px;
+  width: 90%;
+}
+.image-block-col-left p:nth-child(2) {
+  font-size: 13px;
+  font-weight: 500;
+  width: 88%;
+  margin-top: 20px;
+  line-height: 23px;
+}
+.image-block-col-left button{
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+.image-block-col-left p:nth-child(4) {
+  font-size: 11px;
+  margin-top: 30px;
+}
+.image-block-col-right {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+.image-block-col-right img {
+  height: 300px;
+}
+/* /Regole  image-block */
