@@ -186,9 +186,10 @@ body {
   padding: 60px 90px;
 }
 .col-img {
-  width: 30%;
+  width: 20%;
   float: left;
   text-align: center;
+  margin-right: 10%;
 }
 .col-text {
   width: 70%;
