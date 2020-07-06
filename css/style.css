@@ -240,7 +240,7 @@ body {
 .three-box {
   padding: 40px 0;
 }
-.col-marketing, .col-sales, .col-service {
+.three-box-column {
   float: left;
   width: 30%;
   padding: 20px 28px;
@@ -283,15 +283,15 @@ body {
 /* /Regole 3 box */
 /* Regole learn-section */
 .learn-section {
-  height: 600px;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: #fff;
+  padding: 40px 0px 60px;
 }
 /* /Regole learn-section */
 /* Regole learn-title-block */
 .learn-title-block {
   text-align: center;
-  padding: 40px 0;
+  margin-bottom: 40px;
 }
 .learn-title-block h2 {
   font-size: 27px;
@@ -301,6 +301,43 @@ body {
 .learn-title-block p {
   font-size: 13px;
   line-height: 22px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 /* /Regole learn-title-block */
+/* Regole learn-table-block */
+.learn-table-block {
+  height: 300px;
+  background-color: red;
+}
+.generic-table-box {
+  background-color: blue;
+  border: 1px solid black;
+  height: 150px;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+.wrap-number {
+  margin-top: 10px;
+}
+.generic-table-box h2 {
+  font-size: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrap-number div {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.generic-table-box p {
+  font-size: 11px;
+  margin-top: 10px;
+}
+#agency {
+  height: 30px;
+}
+
+/* /Regole learn-table-block */
