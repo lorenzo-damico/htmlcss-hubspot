@@ -135,7 +135,6 @@ body {
 .title-section p:nth-child(2) {
   width: 55%;
   font-size: 14px;
-  font-weight: 500;
   margin-top: 20px;
   line-height: 25px;
 }
@@ -423,7 +422,6 @@ margin-left: 15px;
 }
 .image-block-col-left p:nth-child(2) {
   font-size: 13px;
-  font-weight: 500;
   width: 88%;
   margin-top: 25px;
   line-height: 23px;
@@ -434,7 +432,7 @@ margin-left: 15px;
   margin-top: 25px;
 }
 .image-block-col-left p:nth-child(4) {
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 35px;
 }
 .image-block-col-right {
