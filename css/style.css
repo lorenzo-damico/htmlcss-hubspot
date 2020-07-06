@@ -139,3 +139,12 @@ body {
   margin-top: 30px;
 }
 /* /Regole title-section */
+/* Regole separation-section */
+.separation-section {
+  height: 80px;
+  background-color: #AFEBE4;
+  border-top: 3px solid #384F60;
+  border-bottom: 3px solid #384F60;
+
+}
+/* /Regole separation-section */
