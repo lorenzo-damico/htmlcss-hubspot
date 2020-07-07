@@ -29,19 +29,6 @@ body {
 .button-orange:hover {
   opacity: 0.5;
 }
-.button-white {
-  color: #FE775A;
-  font-family: 'Roboto', sans-serif;
-  background-color: transparent;
-  border: 1px solid #FE775A;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0 10px;
-  cursor: pointer;
-}
-.button-white:hover {
-  background-color: rgba(254, 119, 90, 0.1)
-}
 .box-white {
   background-color: #FFFFFF;
   box-shadow: 0 0 2px 2px #E8EDF3;
@@ -74,6 +61,19 @@ body {
 }
 .fa-search {
   color: #39B7CB;
+}
+.button-white {
+  color: #FE775A;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #FE775A;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.button-white:hover {
+  background-color: rgba(254, 119, 90, 0.1)
 }
 #english {
   display: inline;
@@ -396,8 +396,8 @@ margin-left: 15px;
 #crowd {
   height: 30px;
 }
-#monkey {
-  height: 35px;
+#purple {
+  height: 50px;
 }
 #subaru {
   height: 35px;
@@ -462,7 +462,7 @@ footer a {
   color: #CAD5E1;
   font-size: 13px;
 }
-a:hover {
+footer a:hover {
   color: #00ffff;
 }
 /* /Regole footer */
