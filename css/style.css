@@ -447,7 +447,7 @@ margin-left: 15px;
 /* Regole footer */
 footer {
   height: 500px;
-  color: #cbd6e2;
+  color: #DADEE0;
   background-color: #33475B;
   margin-bottom: 25px;
   padding-top: 35px;
@@ -471,7 +471,17 @@ footer {
 }
 .reference-column a {
   text-decoration: none;
-  color: #cbd6e2;
+  color: #DADEE0;
   font-size: 13px;
+}
+.reference-column button {
+  background-color: #DADEE0;
+  color: #33475B;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 /* /Regole reference-block */
