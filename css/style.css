@@ -444,3 +444,34 @@ margin-left: 15px;
   height: 300px;
 }
 /* /Regole  image-block */
+/* Regole footer */
+footer {
+  height: 500px;
+  color: #cbd6e2;
+  background-color: #33475B;
+  margin-bottom: 25px;
+  padding-top: 35px;
+}
+/* /Regole footer */
+/* Regole reference-block */
+.reference-column {
+  float: left;
+  width: 25%;
+}
+.reference-column h3 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.reference-column ul {
+  list-style: none;
+}
+.reference-column li {
+  margin-bottom: 10px;
+}
+.reference-column a {
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 13px;
+}
+/* /Regole reference-block */
