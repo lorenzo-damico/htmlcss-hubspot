@@ -447,7 +447,7 @@ margin-left: 15px;
 /* Regole footer */
 footer {
   height: 500px;
-  color: #DADEE0;
+  color: #CAD5E1;
   background-color: #33475B;
   margin-bottom: 25px;
   padding-top: 35px;
@@ -471,7 +471,7 @@ footer {
 }
 .reference-column a {
   text-decoration: none;
-  color: #DADEE0;
+  color: #CAD5E1;
   font-size: 13px;
 }
 .reference-column button {
@@ -483,5 +483,9 @@ footer {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+}
+#social-list li {
+  display: inline-block;
+  margin-right: 20px;
 }
 /* /Regole reference-block */
