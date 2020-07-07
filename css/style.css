@@ -22,7 +22,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #FE775A;
   border: none;
-  padding: 10px;
+  padding: 15px 30px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -38,6 +38,9 @@ body {
   color: #FE775A;
   margin-right: 10px;
 }
+ul {
+  list-style: none;
+}
 /* /Regole generali */
 /* Regole login-section */
 .login-section {
@@ -49,9 +52,6 @@ body {
 .login-section nav {
   float:left;
   width: 50%;
-}
-.login-section ul {
-  list-style: none;
 }
 .login-section li {
   display: inline-block;
@@ -74,6 +74,9 @@ body {
 }
 .button-white:hover {
   background-color: rgba(254, 119, 90, 0.1)
+}
+.small-button {
+  padding: 10px;
 }
 #english {
   display: inline;
@@ -107,23 +110,17 @@ body {
   width: 50%;
   text-align: right;
 }
-.navigation-section ul {
-  list-style: none;
-}
 .navigation-section li {
   display: inline-block;
   margin-left: 15px;
   font-size: 14px;
 }
-
 .navigation-section a {
   text-decoration: none;
   color: #33475B;
 }
-
 .navigation-section .fa-angle-down {
   margin-left: 10px;
-
 }
 /* /Regole navigation-section */
 /* Regole title-section */
@@ -141,12 +138,8 @@ body {
 .title-section p:nth-child(2) {
   width: 55%;
   font-size: 14px;
-  margin-top: 20px;
+  margin: 20px 0;
   line-height: 25px;
-}
-.title-section button{
-  padding: 15px 30px;
-  margin-top: 20px;
 }
 .title-section p:nth-child(4) {
   font-size: 12px;
@@ -207,9 +200,6 @@ body {
   display: block;
   margin-top: 15px;
 }
-.col-img button {
-  padding: 15px 30px;
-}
 .col-text h3 {
   font-size: 20px;
 }
@@ -221,7 +211,7 @@ body {
 .col-text h4 {
   text-transform: uppercase;
   font-size: 16px;
-  margin-top: 20px;
+  margin: 20px 0;
   display: inline-block;
 }
 .col-text hr{
@@ -231,14 +221,10 @@ body {
   margin-left: 50px;
   border: 1px solid #AAB1B5;
 }
-.col-text ul {
-  list-style: none;
-  margin-top: 20px;
-  font-size: 13px;
-}
 .col-text li {
   display: inline-block;
   margin-right: 15px;
+  font-size: 13px;
 }
 /* /Regole big-box */
 /* Regole 3-box */
@@ -276,14 +262,9 @@ body {
   font-size: 16px;
 }
 .three-box ul {
-  list-style: none;
   text-align: left;
   font-size: 13px;
-  margin-top: 20px;
-}
-.three-box button {
-  padding: 15px 30px;
-  margin-top: 40px;
+  margin: 20px 0 40px;
 }
 /* /Regole 3 box */
 /* Regole learn-section */
@@ -375,10 +356,7 @@ body {
   padding-top: 10px;
   float: left;
   text-align: right;
-}
-.logos-column ul {
-list-style: none;
-line-height: 50px;
+  line-height: 50px;
 }
 .logos-column li {
 display: inline-block;
@@ -429,13 +407,8 @@ margin-left: 15px;
 .image-block-col-left p:nth-child(2) {
   font-size: 13px;
   width: 88%;
-  margin-top: 25px;
+  margin: 25px 0;
   line-height: 23px;
-}
-.image-block-col-left button{
-  font-size: 12px;
-  padding: 15px 30px;
-  margin-top: 25px;
 }
 .image-block-col-left p:nth-child(4) {
   font-size: 12px;
@@ -476,13 +449,10 @@ footer a:hover {
   font-size: 14px;
   margin-bottom: 20px;
 }
-.reference-column ul {
-  list-style: none;
-}
 .reference-column li {
   margin-bottom: 10px;
 }
-.reference-column button {
+.contact-button {
   background-color: #DADEE0;
   color: #33475B;
   border-radius: 5px;
@@ -492,7 +462,7 @@ footer a:hover {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
-.reference-column button:hover {
+.contact-button:hover {
   opacity: 0.9;
 }
 #social-list li {
@@ -506,9 +476,6 @@ footer a:hover {
   padding-top: 45px;
   padding-bottom: 20px;
   border-bottom: 1px solid #fff;
-}
-.language-block ul {
-  list-style: none;
 }
 .language-block li {
   display: inline-block;
@@ -532,9 +499,6 @@ footer a:hover {
 .copyright-column p {
   color: #fff;
   font-size: 13px;
-}
-#legal ul {
-  list-style: none;
 }
 #legal li {
   display: inline-block;
