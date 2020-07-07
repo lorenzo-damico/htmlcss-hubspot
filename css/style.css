@@ -26,6 +26,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.button-orange:hover {
+  opacity: 0.5;
+}
 .button-white {
   color: #FE775A;
   font-family: 'Roboto', sans-serif;
@@ -35,6 +38,9 @@ body {
   border-radius: 5px;
   margin: 0 10px;
   cursor: pointer;
+}
+.button-white:hover {
+  background-color: rgba(254, 119, 90, 0.1)
 }
 .box-white {
   background-color: #FFFFFF;
@@ -451,6 +457,14 @@ footer {
   margin-bottom: 25px;
   padding-top: 35px;
 }
+footer a {
+  text-decoration: none;
+  color: #CAD5E1;
+  font-size: 13px;
+}
+a:hover {
+  color: #00ffff;
+}
 /* /Regole footer */
 /* Regole reference-block */
 .reference-column {
@@ -468,11 +482,6 @@ footer {
 .reference-column li {
   margin-bottom: 10px;
 }
-.reference-column a {
-  text-decoration: none;
-  color: #CAD5E1;
-  font-size: 13px;
-}
 .reference-column button {
   background-color: #DADEE0;
   color: #33475B;
@@ -482,6 +491,9 @@ footer {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+}
+.reference-column button:hover {
+  opacity: 0.9;
 }
 #social-list li {
   display: inline-block;
@@ -501,11 +513,6 @@ footer {
 .language-block li {
   display: inline-block;
   margin-right: 15px;
-}
-.language-block a {
-  text-decoration: none;
-  color: #CAD5E1;
-  font-size: 13px;
 }
 /* /Regole language-block */
 /* Regole copyright-block */
@@ -532,10 +539,5 @@ footer {
 #legal li {
   display: inline-block;
   margin-left: 15px;
-}
-#legal a {
-  text-decoration: none;
-  color: #CAD5E1;
-  font-size: 13px;
 }
 /* /Regole copyright-block */
