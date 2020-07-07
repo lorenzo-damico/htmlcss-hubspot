@@ -34,6 +34,10 @@ body {
   box-shadow: 0 0 2px 2px #E8EDF3;
   border-radius: 5px;
 }
+.box-white:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 5px 10px #E8EDF3; 
+}
 .fa-check-circle {
   color: #FE775A;
   margin-right: 10px;
