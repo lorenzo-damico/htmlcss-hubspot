@@ -280,7 +280,7 @@ ul {
 .learn-section {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: #fff;
-  padding: 40px 0px 70px;
+  padding: 40px 0 70px;
 }
 /* /Regole learn-section */
 /* Regole learn-title-block */
@@ -397,7 +397,6 @@ margin-left: 15px;
 }
 #vmware {
   height: 25px;
-  background-color:
 }
 /* /Regole logos-block */
 /* Regole  image-block */
