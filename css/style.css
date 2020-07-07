@@ -36,7 +36,7 @@ body {
 }
 .box-white:hover {
   transform: scale(1.01);
-  box-shadow: 0 0 5px 10px #E8EDF3; 
+  box-shadow: 0 0 5px 6px #E8EDF3;
 }
 .fa-check-circle {
   color: #FE775A;
@@ -48,6 +48,10 @@ ul {
 /* /Regole generali */
 /* Regole login-section */
 .login-section {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
   height: 80px;
   background-color: #F5F8FA;
   line-height: 80px;
@@ -101,6 +105,7 @@ ul {
 .navigation-section {
   height: 80px;
   line-height: 80px;
+  margin-top: 80px;
 }
 .logo {
   float: left;
