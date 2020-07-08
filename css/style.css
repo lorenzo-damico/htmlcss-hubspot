@@ -434,7 +434,6 @@ margin-left: 15px;
 footer {
   color: #CAD5E1;
   background-color: #33475B;
-  margin-bottom: 25px;
   padding-top: 35px;
 }
 footer a {
@@ -496,7 +495,7 @@ footer a:hover:not(.contact-button) {
   float: left;
   width: 50%;
 }
-#legal {
+.copyright-column:nth-child(2) {
   text-align: right;
 }
 .copyright-column img {
@@ -506,7 +505,7 @@ footer a:hover:not(.contact-button) {
   color: #fff;
   font-size: 13px;
 }
-#legal li {
+.copyright-column li {
   display: inline-block;
   margin-left: 15px;
 }
