@@ -18,13 +18,14 @@ body {
   margin: auto;
 }
 .button-orange {
+  display: inline-block;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
   background-color: #FE775A;
   border: none;
   padding: 15px 30px;
   border-radius: 5px;
-  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
 }
 .button-orange:hover {
   opacity: 0.5;
@@ -72,18 +73,19 @@ ul {
 }
 .button-white {
   color: #FE775A;
-  font-family: 'Roboto', sans-serif;
   background-color: transparent;
   border: 1px solid #FE775A;
   padding: 10px;
   border-radius: 5px;
   margin: 0 10px;
-  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
 }
 .button-white:hover {
   background-color: rgba(254, 119, 90, 0.1)
 }
 .small-button {
+  display: inline;
   padding: 10px;
 }
 #english {
@@ -204,10 +206,7 @@ ul {
 }
 .col-img img {
   height: 80px;
-}
-.col-img a {
-  display: block;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .col-text h3 {
   font-size: 20px;
@@ -443,7 +442,7 @@ footer a {
   color: #CAD5E1;
   font-size: 13px;
 }
-footer a:hover {
+footer a:hover:not(.contact-button) {
   color: #00ffff;
 }
 /* /Regole footer */
@@ -467,8 +466,7 @@ footer a:hover {
   border: none;
   padding: 10px;
   font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer;
+  display: inline-block;
 }
 .contact-button:hover {
   opacity: 0.9;
