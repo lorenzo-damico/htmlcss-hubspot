@@ -335,7 +335,7 @@ ul {
 /* /Regole learn-table-block */
 /* Regole logos-section */
 .logos-section  {
- padding-top: 45px;
+ padding-top: 40px;
 }
 /* /Regole logos-section */
 /* Regole logos-block */
@@ -361,41 +361,23 @@ ul {
 .logos-column {
   width: 60%;
   margin-left: 20%;
-  padding-top: 10px;
   float: left;
-  text-align: right;
   line-height: 50px;
 }
+.logos-column ul {
+  width: 100%;
+}
 .logos-column li {
-display: inline-block;
-margin-left: 15px;
+  display: inline-block;
+  width: 24%;
 }
 .logos-column img {
+  width: 100%;
+  padding: 0 5px;
   vertical-align: middle;
 }
-#atlassian {
-  height: 13px;
-}
-#doordash {
-  height: 12px;
-}
-#crowd {
-  height: 30px;
-}
-#purple {
-  height: 50px;
-}
-#subaru {
-  height: 35px;
-}
-#wistia {
-  height: 16px;
-}
 #classpass {
-  height: 30px;
-}
-#vmware {
-  height: 25px;
+  width: 80%;
 }
 /* /Regole logos-block */
 /* Regole  image-block */
